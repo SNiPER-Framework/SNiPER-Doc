@@ -10,6 +10,10 @@
 
 * [Data Management](/DataManagement.md)
 
+* [Services](/Services.md)
+
+* [Tools](/Tools.md)
+
 * [Installation](/installation.md "Installation")
 
 
