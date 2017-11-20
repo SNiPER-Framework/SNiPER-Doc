@@ -5,4 +5,5 @@
     "plugins": ["flow"],
     "plugins": ["sequence"],
     "plugins": ["mermaid-gb3"]
+
 }
