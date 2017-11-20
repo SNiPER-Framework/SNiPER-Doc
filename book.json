@@ -2,5 +2,5 @@
     "gitbook": "3.x.x",
     "title": "SNiPER Documentation",
     
-    "plugins": ["flow"，"sequence"， "mermaid-gb3"]
+    "plugins": ["flow", "sequence", "mermaid-gb3"]
 }
