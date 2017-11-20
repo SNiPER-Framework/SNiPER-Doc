@@ -54,18 +54,18 @@ gantt
 
 ```mermaid
 graph LR
-A[Hard edge] -->|Link text| B(Round edge)
-B --> C{Decision}
-C -->|One| D[Result one]
-C -->|Two| E[Result two]
+    A[Hard edge] -->|Link text| B(Round edge)
+    B --> C{Decision}
+    C -->|One| D[Result one]
+    C -->|Two| E[Result two]
 ```
 
 ## Mermaid-序列图
 
 ```mermaid
 sequenceDiagram
-Alice->John: Hello John, how are you?
-loop every minute
-    John-->Alice: Great!
-end
+    Alice->John: Hello John, how are you?
+    loop every minute
+        John-->Alice: Great!
+    end
 ```
