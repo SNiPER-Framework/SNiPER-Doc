@@ -4,6 +4,8 @@
 
 * [Architecture](/Architecture.md)
 
+* [Algorithms](/Algorithms.md)
+
 * [Installation](/installation.md "Installation")
 
 
