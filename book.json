@@ -1,4 +1,6 @@
 {
     "gitbook": "2.x.x",
-    "title": "SNiPER Documentation"
+    "title": "SNiPER Documentation",
+    
+    "plugins": ["flowchart"]
 }
