@@ -3,6 +3,5 @@
     "title": "SNiPER Documentation",
     
     "plugins": ["flow"],
-    "plugins": ["sequence"],
-    "plugins": ["mermaid-gb3"]
+    "plugins": ["sequence"]
 }
