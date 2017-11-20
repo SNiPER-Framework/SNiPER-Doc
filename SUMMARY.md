@@ -16,4 +16,4 @@
 
 * [Installation](/installation.md "Installation")
 
-* [Test](/test.md "Test")
+* [Test](/Test.md "Test")
