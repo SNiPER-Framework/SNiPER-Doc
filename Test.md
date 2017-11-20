@@ -1,5 +1,7 @@
 # Test
 
+## char1
+
 ```flow
 st=>start: Start:>http://www.google.com[blank]
 e=>end:>http://www.google.com
@@ -19,6 +21,7 @@ abc
 
 ---
 
+## char2
 
 ```flow
 st=>start: Start|past:>http://www.google.com[blank]
