@@ -2,8 +2,7 @@
     "gitbook": "3.x.x",
     "title": "SNiPER Documentation",
     
-    "plugins": ["flow"],
- 
+
     "plugins": ["mermaid-gb3"]
 
 }
