@@ -1,19 +1,19 @@
 # Summary
 
 * [Introduction](README.md)
-
-* [Architecture](/Architecture.md)
-
-* [Algorithms](/Algorithms.md)
-
-* [Tasks](/Tasks.md)
-
-* [Data Management](/DataManagement.md)
-
-* [Services](/Services.md)
-
-* [Tools](/Tools.md)
-
-* [Installation](/installation.md "Installation")
-
-* [Test](/Test.md "Test")
+* [Architecture](Architecture/0.Architecture.md)
+    * [General Concepts](Architecture/1.Concepts.md)
+    * [Interfaces](Architecture/2.Interfaces.md)
+    * [Execution Sequence](Architecture/3.ExeSeq.md)
+* [Algorithms](Algorithms/0.Algorithms.md)
+    * [C++ Implementation](Algorithms/1.CppCode.md)
+    * [Python Configuration and Execution](Algorithms/2.Python.md)
+* [Services](Services/0.Services.md)
+    * [C++ Implementation](Services/1.CppCode.md)
+    * [Invoke a Service](Services/2.Invoke.md)
+    * [Python Configuration and Execution](Services/3.Python.md)
+* [Tasks](Tasks.md)
+* [Data Management](DataManagement.md)
+* [Tools](Tools.md)
+* [Installation](installation.md)
+* [Test](Test.md)
