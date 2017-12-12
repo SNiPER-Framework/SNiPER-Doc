@@ -4,7 +4,7 @@ In this part, we will introduce how to install SNiPER.
 
 The source code of SNiPER is open-source. The public SNiPER repository can be found in [IHEP gitlab](http://gitlab.ihep.ac.cn/zoujh/sniper). For several experiments using SNiPER, they have their own requirements, so the source code is private and installation is done by their own tools.
 
-## General SNiPER
+## General installation of SNiPER
 
 To build SNiPER, we need several libraries and tools installed:
 
@@ -80,6 +80,14 @@ $ ./bootstrap.sh --prefix=/DEV/sniper-general/ExternalLibs/Boost/1.65.1
 $ ./b2 install -j8
 
 ```
+
+#### Intel TBB
+
+#### CMT
+
+### External Interface
+
+### SNiPER
 
 ## Experiments-specific SNiPER
 
