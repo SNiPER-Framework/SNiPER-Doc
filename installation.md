@@ -9,9 +9,11 @@ The source code of SNiPER is open-source. The public SNiPER repository can be fo
 To build SNiPER, we need several libraries and tools installed:
 
 * CMT, configuration management tools
+* git, get the source code of SNiPER
 * Python, python-devel
 * Boost, boost.python
 * Intel TBB, for parallel computing
+
 
 
 
