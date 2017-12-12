@@ -133,7 +133,6 @@ $ install -d $prefix/include/tbb/machine
 $ install -t $prefix/include/tbb/machine include/tbb/machine/*.h
 $ install -d $prefix/lib
 $ install -t $prefix/lib build/linux*/*.so*
-
 ```
 
 #### CMT
