@@ -14,6 +14,16 @@ To build SNiPER, we need several libraries and tools installed:
 * Boost, boost.python
 * Intel TBB, for parallel computing
 
+It's not necessary to use root permission to install these libraries.
+Create a directory for the projects:
+```
+$ mkdir /DEV/sniper-general
+```
+
+Create a directory called `ExternalLibs`, which will be used to install the external libraries:
+```
+$ mkdir /DEV/sniper-general/ExternalLibs
+```
 
 
 
