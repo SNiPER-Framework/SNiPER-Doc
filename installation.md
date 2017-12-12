@@ -146,6 +146,11 @@ export CPATH=$TBBROOT/include:$CPATH
 export CMAKE_PREFIX_PATH=$TBBROOT:$CMAKE_PREFIX_PATH
 ```
 
+Source it:
+```
+$ source /DEV/sniper-general/ExternalLibs/tbb/2018/bashrc
+```
+
 #### CMT
 
 ### External Interface
