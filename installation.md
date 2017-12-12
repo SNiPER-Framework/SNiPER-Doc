@@ -135,6 +135,18 @@ $ install -d $prefix/lib
 $ install -t $prefix/lib build/linux*/*.so*
 ```
 
+Then create `bashrc`:
+```
+$ touch /DEV/sniper-general/ExternalLibs/tbb/2018/bashrc
+$ # Please edit this file
+$ cat /DEV/sniper-general/ExternalLibs/tbb/2018/bashrc
+export TBBROOT=/DEV/sniper-general/ExternalLibs/tbb/2018
+export LD_LIBRARY_PATH=$TBBROOT/lib:$LD_LIBRARY_PATH
+export CPATH=$TBBROOT/include:$CPATH
+export CMAKE_PREFIX_PATH=$TBBROOT:$CMAKE_PREFIX_PATH
+
+```
+
 #### CMT
 
 ### External Interface
