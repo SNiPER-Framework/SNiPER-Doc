@@ -94,7 +94,47 @@ export CPATH=$BOOSTROOT/include:$CPATH
 export CMAKE_PREFIX_PATH=$BOOSTROOT:$CMAKE_PREFIX_PATH
 ```
 
+Source this bashrc:
+```
+$ source /DEV/sniper-general/ExternalLibs/Boost/1.65.1/bashrc
+```
+
 #### Intel TBB
+Intel TBB is also easy to install:
+```
+$ cd /DEV/sniper-general/ExternalLibs/Build
+$ wget https://github.com/01org/tbb/archive/2018_U2.tar.gz
+$ tar zxvf 2018_U2.tar.gz 
+$ cd tbb-2018_U2/
+$ make
+```
+
+A bit different from other libraries, the libraries are created under `build`:
+```
+$ ls build/
+linux_intel64_gcc_cc4.4.7_libc2.12_kernel2.6.32_debug
+linux_intel64_gcc_cc4.4.7_libc2.12_kernel2.6.32_release
+```
+
+We will install both libraries under `release` and `debug`:
+```
+$ mkdir -p /DEV/sniper-general/ExternalLibs/tbb/2018
+$ prefix=/DEV/sniper-general/ExternalLibs/tbb/2018
+$ install -d $prefix/include/serial
+$ install -d $prefix/include/serial/tbb
+$ install -t $prefix/include/serial/tbb include/serial/tbb/*.h
+$ install -d $prefix/include/tbb
+$ install -t $prefix/include/tbb include/tbb/*.h
+$ install -d $prefix/include/tbb/compat
+$ install -t $prefix/include/tbb/compat include/tbb/compat/*
+$ install -d $prefix/include/tbb/internal
+$ install -t $prefix/include/tbb/internal include/tbb/internal/*
+$ install -d $prefix/include/tbb/machine
+$ install -t $prefix/include/tbb/machine include/tbb/machine/*.h
+$ install -d $prefix/lib
+$ install -t $prefix/lib build/linux*/*.so*
+
+```
 
 #### CMT
 
