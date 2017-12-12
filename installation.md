@@ -152,6 +152,16 @@ $ source /DEV/sniper-general/ExternalLibs/tbb/2018/bashrc
 ```
 
 #### CMT
+Let's install CMT:
+```
+$ cd /DEV/sniper-general/ExternalLibs/Build
+$ wget http://www.cmtsite.net/v1r26/CMTv1r26.tar.gz
+$ tar -C /DEV/sniper-general/ExternalLibs -zxvf CMTv1r26.tar.gz
+$ cd /DEV/sniper-general/ExternalLibs/CMT/v1r26/mgr/
+$ ./INSTALL
+$ source setup.sh
+$ make
+```
 
 ### External Interface
 
