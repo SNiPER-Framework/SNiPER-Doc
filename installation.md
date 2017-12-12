@@ -35,7 +35,35 @@ $ mkdir /DEV/sniper-general/ExternalLibs/Build
 
 Let's install python first:
 ```
+$ cd /DEV/sniper-general/ExternalLibs/Build
+$ wget http://www.python.org/ftp/python/2.7.14/Python-2.7.14.tgz
+$ tar zxvf Python-2.7.14.tgz 
+$ cd Python-2.7.14
+$ mkdir -p /DEV/sniper-general/ExternalLibs/Python/2.14
+$ ./configure --prefix=/DEV/sniper-general/ExternalLibs/Python/2.14 --enable-shared --enable-unicode=ucs4
+$ make -j8
+$ make install
+```
 
+To make python available for us, we create a setup script `bashrc`:
+```
+$ touch /DEV/sniper-general/ExternalLibs/Python/2.14/bashrc
+$ # Please edit this file
+$ cat /DEV/sniper-general/ExternalLibs/Python/2.14/bashrc
+export PYTHONROOT=/DEV/sniper-general/ExternalLibs/Python/2.14
+export PATH=$PYTHONROOT/bin:$PATH
+export LD_LIBRARY_PATH=$PYTHONROOT/lib:$LD_LIBRARY_PATH
+export PKG_CONFIG_PATH=$PYTHONROOT/lib/pkgconfig:$PKG_CONFIG_PATH
+export CPATH=$PYTHONROOT/include:$CPATH
+export CMAKE_PREFIX_PATH=$PYTHONROOT:$CMAKE_PREFIX_PATH
+export PYTHONPATH=$PYTHONROOT/lib/python2.7/lib-dynload:$PYTHONPATH
+```
+
+Then source this bashrc:
+```
+$ source /DEV/sniper-general/ExternalLibs/Python/2.14/bashrc
+$ which python
+/DEV/sniper-general/ExternalLibs/Python/2.14/bin/python
 ```
 
 ## Experiments-specific SNiPER
