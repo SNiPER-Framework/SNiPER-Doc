@@ -15,7 +15,7 @@ To build SNiPER, we need several libraries and tools installed:
 * Intel TBB, for parallel computing
 
 Note: in this example, Scientific Linux 6.9 with GCC 4.4.7 is used.
-To enable c++11 features, we use `devtoolset`.
+To enable c++11 features, we use [devtoolset](http://linux.web.cern.ch/linux/devtoolset/).
 
 ### External Libraries
 It's not necessary to use root permission to install these libraries.
