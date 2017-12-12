@@ -74,7 +74,9 @@ Then, download and install it:
 $ cd /DEV/sniper-general/ExternalLibs/Build
 $ wget http://sourceforge.net/projects/boost/files/boost/1.65.1/boost_1_65_1.tar.gz
 $ tar zxvf boost_1_65_1.tar.gz 
-$ 
+$ cd boost_1_65_1
+$ mkdir -p /DEV/sniper-general/ExternalLibs/Boost/1.65.1
+$ ./bootstrap.sh --prefix=/DEV/sniper-general/ExternalLibs/Boost/1.65.1
 ```
 
 ## Experiments-specific SNiPER
