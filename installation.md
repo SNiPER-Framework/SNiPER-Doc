@@ -6,6 +6,8 @@ The source code of SNiPER is open-source. The public SNiPER repository can be fo
 
 ## General SNiPER
 
+To build SNiPER, we need several libraries and tools installed.
+
 ## Experiments-specific SNiPER
 
 
