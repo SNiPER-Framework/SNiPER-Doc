@@ -144,7 +144,6 @@ export TBBROOT=/DEV/sniper-general/ExternalLibs/tbb/2018
 export LD_LIBRARY_PATH=$TBBROOT/lib:$LD_LIBRARY_PATH
 export CPATH=$TBBROOT/include:$CPATH
 export CMAKE_PREFIX_PATH=$TBBROOT:$CMAKE_PREFIX_PATH
-
 ```
 
 #### CMT
