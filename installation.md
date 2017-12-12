@@ -77,6 +77,8 @@ $ tar zxvf boost_1_65_1.tar.gz
 $ cd boost_1_65_1
 $ mkdir -p /DEV/sniper-general/ExternalLibs/Boost/1.65.1
 $ ./bootstrap.sh --prefix=/DEV/sniper-general/ExternalLibs/Boost/1.65.1
+$ ./b2 install -j8
+
 ```
 
 ## Experiments-specific SNiPER
