@@ -7,10 +7,15 @@ The source code of SNiPER is open-source. The public SNiPER repository can be fo
 ## General SNiPER
 
 To build SNiPER, we need several libraries and tools installed:
+
+* CMT, configuration management tools
 * Python, python-devel
 * Boost, boost.python
-* CMT, configuration management tools
+* Intel TBB, for parallel computing
+
+
 
 ## Experiments-specific SNiPER
 
-
+* For JUNO experiment, there is a tool called `junoenv`.
+* For nEXO experiment, there is a tool called `nexoenv`.
