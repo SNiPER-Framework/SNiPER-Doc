@@ -15,6 +15,7 @@ To build SNiPER, we need several libraries and tools installed:
 * Intel TBB, for parallel computing
 
 Note: in this example, Scientific Linux 6.9 with GCC 4.4.7 is used.
+To enable c++11 features, we use `devtoolset`.
 
 ### External Libraries
 It's not necessary to use root permission to install these libraries.
@@ -163,9 +164,27 @@ $ source setup.sh
 $ make
 ```
 
-### External Interface
-
 ### SNiPER
+After these external libraries are installed, we can install sniper now.
+
+Get the source code:
+```
+$ cd DEV/sniper-general
+$ git clone http://gitlab.ihep.ac.cn/zoujh/sniper.git
+```
+
+In this version, under sniper there are two directories. One is source code. Another is external interface.
+We need to setup an environment variable called `$CMTPROJECTPATH` to let CMT compile SNiPER.
+```
+$ cd sniper
+$ export CMTPROJECTPATH=/DEV/sniper-general/sniper:$CMTPROJECTPATH
+```
+
+Setup external interfaces first. To let CMT know our installed libraries, we need to modify several files:
+```
+$ # edit Externals/Boost/cmt/requirements
+```
+
 
 ## Experiments-specific SNiPER
 
