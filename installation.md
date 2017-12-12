@@ -183,8 +183,30 @@ $ export CMTPROJECTPATH=/DEV/sniper-general/sniper:$CMTPROJECTPATH
 Setup external interfaces first. To let CMT know our installed libraries, we need to modify several files:
 ```
 $ # edit Externals/Boost/cmt/requirements
+$ cat Externals/Boost/cmt/requirements
+package Boost
+
+use Python v* Externals
+
+macro_append Boost_linkopts " -L$BOOSTROOT/lib -lboost_python "
+include_path none
+```
+Here, `-L$BOOSTROOT/lib` tells linker where to find `boost_python`.
+
+Then, we could setup external interface:
+```
+$ cd ExternalInterface/EIRelease/cmt
+$ cmt br cmt config
+$ source setup.sh
 ```
 
+Finally, we could build SNiPER:
+```
+$ cd /DEV/sniper-general/sniper/sniper/SniperRelease/cmt
+$ cmt br cmt config
+$ source setup.sh
+$ cmt br cmt make
+```
 
 ## Experiments-specific SNiPER
 
