@@ -14,6 +14,8 @@ To build SNiPER, we need several libraries and tools installed:
 * Boost, boost.python
 * Intel TBB, for parallel computing
 
+Note: in this example, Scientific Linux 6.9 with GCC 4.4.7 is used.
+
 ### External Libraries
 It's not necessary to use root permission to install these libraries.
 We will use a normal user to install them.
@@ -78,7 +80,18 @@ $ cd boost_1_65_1
 $ mkdir -p /DEV/sniper-general/ExternalLibs/Boost/1.65.1
 $ ./bootstrap.sh --prefix=/DEV/sniper-general/ExternalLibs/Boost/1.65.1
 $ ./b2 install -j8
+$ ./b2 install
+```
 
+Then create `bashrc`:
+```
+$ touch /DEV/sniper-general/ExternalLibs/Boost/1.65.1/bashrc
+$ # Please edit this file
+$ cat /DEV/sniper-general/ExternalLibs/Boost/1.65.1/bashrc
+export BOOSTROOT=/DEV/sniper-general/ExternalLibs/Boost/1.65.1
+export LD_LIBRARY_PATH=$BOOSTROOT/lib:$LD_LIBRARY_PATH
+export CPATH=$BOOSTROOT/include:$CPATH
+export CMAKE_PREFIX_PATH=$BOOSTROOT:$CMAKE_PREFIX_PATH
 ```
 
 #### Intel TBB
