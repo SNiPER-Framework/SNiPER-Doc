@@ -33,6 +33,7 @@ Create `Build` under it, to save installation tarballs and caches.
 $ mkdir /DEV/sniper-general/ExternalLibs/Build
 ```
 
+#### Python
 Let's install python first:
 ```
 $ cd /DEV/sniper-general/ExternalLibs/Build
@@ -64,6 +65,16 @@ Then source this bashrc:
 $ source /DEV/sniper-general/ExternalLibs/Python/2.14/bashrc
 $ which python
 /DEV/sniper-general/ExternalLibs/Python/2.14/bin/python
+```
+
+#### Boost
+Now, let's install boost. Before install boost, make sure you source `bashrc` of our own python.
+Then, download and install it:
+```
+$ cd /DEV/sniper-general/ExternalLibs/Build
+$ wget http://sourceforge.net/projects/boost/files/boost/1.65.1/boost_1_65_1.tar.gz
+$ tar zxvf boost_1_65_1.tar.gz 
+$ 
 ```
 
 ## Experiments-specific SNiPER
