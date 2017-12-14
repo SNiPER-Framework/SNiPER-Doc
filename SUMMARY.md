@@ -1,6 +1,8 @@
 # Summary
 
 * [Introduction](README.md)
+* [Motivation](https://www.gitbook.com/book/sniper-framework/sniper-doc/edit#)
+
 * [Architecture](Architecture/0.Architecture.md)
   * [General Concepts](Architecture/1.Concepts.md)
   * [Interfaces](Architecture/2.Interfaces.md)
@@ -17,5 +19,6 @@
 * [Data Management](DataManagement.md)
 * [Tools](Tools.md)
 * [Installation](installation.md)
-* [Motivation](motivation.md)
+* 
+
 
