@@ -17,6 +17,5 @@
 * [Data Management](DataManagement.md)
 * [Tools](Tools.md)
 * [Installation](installation.md)
-
-
+* [Motivation](motivation.md)
 
