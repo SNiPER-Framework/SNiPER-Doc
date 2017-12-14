@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [Motivation](https://www.gitbook.com/book/sniper-framework/sniper-doc/edit#)
+* [Motivation](motivation.md)
 
 * [Architecture](Architecture/0.Architecture.md)
   * [General Concepts](Architecture/1.Concepts.md)
