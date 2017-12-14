@@ -16,5 +16,7 @@
 * [Tasks](Task/0.Task.md)
   * [State Machine](Task/1.StateMachine.md)
 * [Data Management](DataManagement.md)
+  * [Data Buffer](DataManagement/data-buffer.md)
 * [Tools](Tools.md)
 * [Installation](installation.md)
+
