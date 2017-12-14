@@ -2,7 +2,6 @@
 
 * [Introduction](README.md)
 * [Motivation](motivation.md)
-
 * [Architecture](Architecture/0.Architecture.md)
   * [General Concepts](Architecture/1.Concepts.md)
   * [Interfaces](Architecture/2.Interfaces.md)
@@ -19,6 +18,3 @@
 * [Data Management](DataManagement.md)
 * [Tools](Tools.md)
 * [Installation](installation.md)
-* 
-
-
