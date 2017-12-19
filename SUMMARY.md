@@ -16,7 +16,13 @@
 * [Tasks](Task/0.Task.md)
   * [State Machine](Task/1.StateMachine.md)
 * [Data Management](DataManagement.md)
-  * [Data Buffer](DataManagement/data-buffer.md)
+  * [General Concept](DataManagement/basic-concept.md)
+  * [Relevant Utilities](DataManagement/relevant-tools.md)
+    * [Data Buffer](DataManagement/data-buffer.md)
+    * [RootWriter](DataManagement/rootwriter.md)
+  * [Example: JUNO Data Management](DataManagement/example-juno-data-management.md)
+    * Event Data Model
+    * Memory Management
+    * ROOT I/O
 * [Tools](Tools.md)
-* [Installation](installation.md)
 
