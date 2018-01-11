@@ -21,7 +21,7 @@
     * [Data Buffer](DataManagement/data-buffer.md)
     * [RootWriter](DataManagement/rootwriter.md)
   * [Example: JUNO Data Management](DataManagement/example-juno-data-management.md)
-    * Event Data Model
+    * [Event Data Model](DataManagement/example-juno-data-management/event-data-model.md)
     * Memory Management
     * ROOT I/O
 * [Tools](Tools.md)
